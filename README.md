@@ -1,7 +1,8 @@
 # Sydnod Operations
+Sydnod use below public keys for certificate authentication. Choose your flavor.
 
 ## SSH
-#### Public Key
+#### Public Key (`operations.pub`)
 ```bash
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5GbE84nXTD+Ut9vDTjOcv55FFusK4KWNUBcL+CrKg3FDITyhv/0QOdWC4a+MsT/Y+I0RPM3vb4Aj25YreIiXW1eKsb7Vk2YPZnQX+24G3zgxeI19HA4zX0uWKtKiB8zF7PRHzr3fv3LhRwDQGK9cwSRGNE+AZuAZ1WeugBeESU7pWHzvYDNAp3YbC4tA4KK5/Vw5D9ZzTpj61XJ+LdWt6Pz61uQcYNyj8C9/krinxRHId3FRHEsizjEeEYRuiTRUSqo0eryITK3K7HbZEGBVG4fDZWjxxU7A/g7XYVDgki/y0PF4BM8A3IPIyGdkzJhJhmZx8VKP8zBd1/98ZqaTaVqbYXRccbEdawIs8RBqKiWlYp+LYQci36kH5jpK06xzaX4MjVRK4MW/YxTeeazh3jmQ6wlzOxdxf/9htV7EfjBdRoVkOlghuMNJ0LcdbWyzhOTnySjRDILnv0FLD729TvlRuo3854XmnSseBmq3RH+u+xhyrz+Im0xKroVCBbHFqWICZJB+fdHqTYRNgE0wNfspChJf/iS7lBqeD9Kmgs/xc4wS9fAwJEDXdmgmF+6YM9G2lReS4S/QDgHecbogYZKMVct/1pIJN3oeM2h/62OMVxlitZjEeb7J0a53gVALc29qTubFQm2CAtHMcZ3KkC9DonQVW47rUDPbDmhh+EQ=
 ```
@@ -12,7 +13,7 @@ SHA256:VB9NuVB5mh/dLDv3pZBetJoyRCnTKRZace4O4t2kHR0
 ```
 
 ## X.509
-#### Public Key
+#### Public Key (`operations.crt`)
 ```bash
 -----BEGIN CERTIFICATE-----
 MIIDgjCCAmqgAwIBAgIJAPkqBV3qtQJyMA0GCSqGSIb3DQEBCwUAMFYxCzAJBgNV
